@@ -1,2 +1,2 @@
 # Solana-Anchor-Rust
-My first Rust project on Soalan built with Anchor
+My first Rust project on Solana built with Anchor
