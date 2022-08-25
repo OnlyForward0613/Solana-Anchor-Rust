@@ -18,8 +18,8 @@ pub mod myepicproject {
         Ok(())
     }
 
-    // Another function woo!
-    // The function now accepts a gif_link param from the user. We also reference the user from the Context
+    // This function accepts a gif_link param from the user. 
+    // We also reference the user from the Context
     pub fn add_gif(ctx: Context<AddGif>, gif_link: String) -> Result<()> {
         let base_account = &mut ctx.accounts.base_account;
         let user = &mut ctx.accounts.user;
