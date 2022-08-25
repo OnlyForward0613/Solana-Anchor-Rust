@@ -1,8 +1,9 @@
 # Solana Anchor Rust
+
 My first Rust project on Solana built with Anchor
 
-
 ## How to Deploy
+
 ```
 solana config set --url devnet
 
@@ -24,3 +25,6 @@ anchor build
 solana program deploy target/deploy/anchor_project.so
 
 ```
+
+### Deployed Address
+https://explorer.solana.com/address/BcsgHu3sCQkC5DfMjbqM74zJEdtY4m3ZfDqMVjGYeWcU?cluster=devnet
