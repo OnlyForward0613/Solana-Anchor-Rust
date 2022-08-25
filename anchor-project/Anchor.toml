@@ -12,4 +12,4 @@ cluster = "localnet"
 wallet = "/Users/philson_imac/.config/solana/id.json"
 
 [scripts]
-test = "yarn run mocha -t 1000000 tests/"
+test = "node tests/anchor-project.js"
