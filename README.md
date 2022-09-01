@@ -44,6 +44,7 @@ solana config get
 # Also get Mocha for your JavaScript testing later
 npm install -g mocha
 
+
 ```
 
 
@@ -69,6 +70,7 @@ anchor --version
 # You will also need Solana Web3 JS later
 npm install @project-serum/anchor @solana/web3.js
 
+
 ```
 
 ## 4. Creating the Project
@@ -77,6 +79,7 @@ npm install @project-serum/anchor @solana/web3.js
 anchor init myepicproject --javascript
 cd myepicproject
 anchor test
+
 
 ```
 
@@ -109,7 +112,7 @@ solana address -k target/deploy/anchor_project.json
 anchor build
 
 # Deploy to devnet
-solana program deploy target/deploy/anchor_project.so
+anchor deploy
 
 # Test that everything is working
 anchor test
